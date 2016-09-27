@@ -1,0 +1,36 @@
+@import 'https://fonts.googleapis.com/css?family=Lobster';
+
+body{
+    background: linear-gradient(to right,rgba(103, 255, 146, 0.6), rgba(1, 1, 1, 0.6));
+}   
+
+.container{
+    background: linear-gradient(#232526, #414345);
+    width:25%;
+    height: auto;
+    padding: 10px;
+    color: rgba(28, 255, 148, 0.7);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+input[type="range"]{
+    float: right;
+    margin-right: 5%;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    color: rgb(28, 255, 148);
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(28, 255, 148, 0.7) ;
+}
+
+input[type="text"]{
+    margin-top:20px;
+    width: 97%;
+    border: 1px solid #414345;
+    border-radius: 3px;
+}
